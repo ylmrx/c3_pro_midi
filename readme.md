@@ -1,5 +1,19 @@
 # Quantum Mechanical Keyboard Firmware
 
+## fork notes
+
+only the c3_pro/keychron is relevant keymaps.
+
+build with :
+
+```sh
+make keychron/c3_pro/ansi/red:keychron:flash
+```
+
+(This will attempt flash upon successful build)
+
+## original readme
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)
